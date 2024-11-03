@@ -1,0 +1,40 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, rgb(222, 227, 227), rgb(0, 162, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(225, 180, 122);
+    width: fit-content;
+    padding: 40px;
+    box-shadow: 9px 9px 15px;
+}
+
+input {
+    padding: 12px;
+    background: linear-gradient(to right, rgb(64, 209, 86), rgb(249, 44, 44));
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: rgb(207, 10, 222);
+}
+
+label {
+    color: rgb(182, 0, 91);
+}
+
+p {
+    color: rgb(217, 25, 25);
+}
